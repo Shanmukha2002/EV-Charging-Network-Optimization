@@ -4,3 +4,8 @@ osmnx
 folium
 matplotlib
 scikit-learn
+streamlit
+streamlit-folium
+
+
+

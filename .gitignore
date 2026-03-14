@@ -1,1 +1,3 @@
 maps/*.html
+cache/
+__pycache__/
