@@ -1,15 +1,15 @@
-# EV Charging Network Optimization
+# Graph Analytics for EV Charging Network Optimization
 
-This project analyzes electric vehicle charging networks using graph analytics.
+## Project Overview
 
-## Project Goal
+Electric vehicles require efficient charging infrastructure.
+This project analyzes EV charging station locations using graph analytics and data science techniques.
 
-The goal of this project is to:
+The system helps identify:
 
-* Analyze EV charging station locations
-* Build road network graphs
-* Find nearest charging stations
-* Suggest optimal locations for new charging stations
+* Nearest EV charging stations
+* Optimal routes to charging stations
+* High demand areas for future charging infrastructure
 
 ## Technologies Used
 
@@ -18,5 +18,44 @@ The goal of this project is to:
 * NetworkX
 * OSMNX
 * Folium
-* Machine Learning
-"# EV-Charging-Network-Optimization" 
+* Scikit-learn
+
+## Project Features
+
+* Load EV charging station dataset
+* Build Bengaluru road network graph
+* Map charging stations to road network
+* Find nearest charging station for a user
+* Visualize EV stations on an interactive map
+* Detect high demand areas using clustering
+
+## Project Structure
+
+EV-Charging-Network-Optimization
+
+data
+
+* ev_stations.csv
+
+maps
+
+* ev_map.html
+
+src
+
+* load_data.py
+* build_graph.py
+* station_mapper.py
+* route_finder.py
+* map_visualization.py
+* optimization.py
+
+## Future Improvements
+
+* Add real-time EV charging data
+* Integrate traffic analysis
+* Build web dashboard for EV charging network
+
+## Author
+
+Shanmukhana Gouda

@@ -10,7 +10,12 @@ def create_ev_map():
     # center of Bengaluru
     map_center = [12.9716, 77.5946]
 
-    m = folium.Map(location=map_center, zoom_start=12)
+    m = folium.Map(
+    location=map_center,
+    zoom_start=12,
+    tiles="OpenStreetMap",
+    control_scale=True
+)
 
     # Example user location
     user_location = [12.9352, 77.6245]
