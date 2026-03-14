@@ -20,6 +20,10 @@ The system helps identify:
 * Folium
 * Scikit-learn
 
+## EV Charging Map
+
+![EV Map](images/ev_map.png)
+
 ## Project Features
 
 * Load EV charging station dataset
